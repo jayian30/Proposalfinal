@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<head>
+  <title>My Portfolio</title>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+    <nav>
+      <a href="#home">Home</a> |
+      <a href="#about">About Me</a> |
+      <a href="#projects">Projects</a> |
+      <a href="#album">Album</a> |
+      <a href="#sports">Sports</a> |
+      <a href="#music">My Song</a> |
+      <a href="#video">My Video</a> |
+      <a href="#map">My City</a> |
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME SECTION -->
+    <section id="home">
+      <h2>Home</h2>
+      <p>Hello! I'm Jay Ian Vasquez 
+      a BSIT student passionate about building clean and accessible websites.</p>
+      <img src="Jay.jpg" alt="My Profile Picture" width="200">
+    </section>
+
+    <hr>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>My name is Jay Ian Vasquez. I'm currently studying at (ASSCAT) Agusan del Sur State College of Agriculture and Technology inInformation Technology and learning the fundamentals of web development.</p>
+      <ul>
+        <li>full of curiosity about coding</li>
+        <li>Interested in front-end technologies</li>
+        <li>Aspiring web developer and Visual Graphic Designer.</li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <table border="1" cellpadding="5" cellspacing="0">
+        <caption><strong>Midterm Project</strong></caption>
+        <tr>
+          <th>Project Name</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>HTML Portfolio</td>
+          <td>A basic portfolio website using HTML only.</td>
+        </tr>
+      </table>
+    </section>
+
+    <hr>
+
+    <!-- ALBUM SECTION -->
+    <section id="album">
+      <h2>My Photo Album</h2>
+      <p>Here are some of my favorite pictures:</p>
+      <img src="ian.jpg" alt="Photo 1" width="200">
+      <img src="ian1.jpg" alt="Photo 2" width="200">
+      <img src="ian2.jpg" alt="Photo 3" width="200">
+    </section>
+
+    <hr>
+
+    <!-- SPORTS SECTION -->
+    <section id="sports">
+      <h2>My Favorite Sports</h2>
+      <ul>
+        <li><u>Basketball</u></li>
+       <li><u>Volleyball</u></li>
+        <li><u>Badminton</u></li>
+      </ul>
+      <img src="bkb.jpg" alt="Basketball" width="200">
+      <img src="Vb.jpg" alt="Volleyball" width="200">
+    </section>
+
+    <hr>
+
+    <!-- MUSIC SECTION -->
+    <section id="music">
+      <h2>One of my Talent</h2>
+      <audio controls>
+        <source src="Jay Ian.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </section>
+
+    <hr>
+
+    <!-- VIDEO SECTION -->
+    <section id="video">
+      <h2>My Video</h2>
+      <video width="320" height="240" controls>
+        <source src="My vid.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <hr>
+
+    <!-- GOOGLE MAP SECTION -->
+    <section id="map">
+      <h2>My City - San Francisco, Agusan del Sur</h2>
+      <p>Here is where I'm from!</p>
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.123456789!2d125.97850!3d8.50816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3301e123456789ab%3A0xabcdef1234567890!2sSan%20Francisco%2C%20Agusan%20del%20Sur%2C%20Philippines!5e0!3m2!1sen!2sph!4v1614890448888!5m2!1sen!2sph" 
+        width="400" 
+        height="300" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </section>
+
+    <hr>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <fieldset>
+          <legend>Send a Message</legend>
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name" required><br><br>
+
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required><br><br>
+
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+          <input type="submit" value="Send">
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Portfolio</p>
+  </footer>
+
+</body>
+</html>
